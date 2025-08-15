@@ -83,7 +83,7 @@ const MotoCollectionSection = () => {
                 Welcome to Moto Collection, your destination for premium leather
                 gear since 2012. We offer a wide range of motorbike suits, gloves,
                 shoes, leather jackets, celebrity jackets, movie jackets, and
-                customized options. Whether you're a rider, cosplay fan, or need
+                customized options. Whether you&apos;re a rider, cosplay fan, or need
                 stylish work aprons, we have something for every style and occasion.
               </p>
 

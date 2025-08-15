@@ -16,7 +16,7 @@ const CategoryNft = () => {
     const findCategory = Category.filter(
       (data) => slugify(data.cate) === pageCategory
       );
-      const nft = findCategory[0].subCate;
+      const nft = findCategory[0]?.subCate;
 
     return ( 
         <Section pClass="axil-categorie-area pb--0" borderBottom="pb--50">
@@ -68,7 +68,7 @@ const CategoryNft = () => {
           },
           ]}
         >
-          {nft.map((data, index) => (
+          {nft?.map((data, index) => (
             <div className="categrie-product categrie-product-3" key={index}>
               <Link href={`/products/category/${pageCategory}/${slugify(data.name)}`}>
                 <Image src={data.thumb} height={105} width={160} alt={data.name} />

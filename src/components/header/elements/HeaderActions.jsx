@@ -23,9 +23,9 @@ const HeaderActions = (props) => {
     dispatch(miniCartHandler(data));
   }
 
-const mobileMneuHandler = (data) => {
-  dispatch(mobileMenu(data))
-}
+  const mobileMneuHandler = (data) => {
+    dispatch(mobileMenu(data))
+  }
   return (
     <div className="header-action">
       <ul className="action-list">
@@ -53,52 +53,11 @@ const mobileMneuHandler = (data) => {
             </button>
           </li>
         )}
-
-        <li className="wishlist">
-          <Link href="/wishlist">
-            {getProducts.wishListQuantity > 0 && 
-              <span className="cart-count">{getProducts.wishListQuantity}</span>
-            }
-            <i className="far fa-heart" />
-          </Link>
-        </li>
         <li className="shopping-cart">
           <button className="cart-dropdown-btn" onClick={() => cartHandler(true)}>
             <span className="cart-count">{getProducts.cartQuantityTotal}</span>
             <i className="far fa-shopping-cart" />
           </button>
-        </li>
-        <li className="my-account">
-          <button onClick={accountDropdownToggler}>
-            <i className="far fa-user" />
-          </button>
-          <div
-            className={`my-account-dropdown ${accountDropdown ? "open" : ""}`}
-          >
-            <span className="title">QUICKLINKS</span>
-            <ul>
-              <li>
-                <Link href="/dashboard">My Account</Link>
-              </li>
-              <li>
-                <Link href="dashboard/orders">Orders</Link>
-              </li>
-              <li>
-                <Link href="dashboard/account-details">Settings</Link>
-              </li>
-            </ul>
-            <div className="login-btn">
-              <Link href="/sign-in" className="axil-btn btn-bg-primary">
-                Login
-              </Link>
-            </div>
-            <div className="reg-footer text-center">
-              No account yet?
-              <Link href="/sign-up" className="btn-link">
-                REGISTER HERE.
-              </Link>
-            </div>
-          </div>
         </li>
         <li className="axil-mobile-toggle">
           <button className="menu-btn mobile-nav-toggler" onClick={() => mobileMneuHandler(true)}>

@@ -1,86 +1,95 @@
 const FooterData = {
-    footerLink: [
+  footerLink: [
+    {
+      label: "Our Policies:",
+      linkList: [
         {
-            label: "Account",
-            linkList: [
-                {
-                    name: "My Account",
-                    url: "/dashboard"
-                },
-                {
-                    name: "Login",
-                    url: "/sign-in"
-                },
-                {
-                    name: "Cart",
-                    url: "/cart"
-                },
-                {
-                    name: "Wishlist",
-                    url: "/wishlist"
-                },
-                {
-                    name: "Shop",
-                    url: "/shop"
-                }
-            ]
+          name: "Privacy Policy",
+          url: "/dashboard",
         },
         {
-            label: "Quick Link",
-            linkList: [
-                {
-                    name: "About Us",
-                    url: "/about"
-                },
-                {
-                    name: "Privacy Policy",
-                    url: "/privacy-policy"
-                },
-                {
-                    name: "Terms Of Use",
-                    url: "/terms-of-use"
-                },
-                {
-                    name: "Contact",
-                    url: "/contact"
-                },
-            ]
+          name: "Billing Terms & Conditions",
+          url: "/sign-in",
         },
         {
-            label: "Quick Link",
-            linkList: [
-                {
-                    name: "About Us",
-                    url: "/about"
-                },
-                {
-                    name: "Privacy Policy",
-                    url: "/privacy-policy"
-                },
-                {
-                    name: "Terms Of Use",
-                    url: "/terms-of-use"
-                },
-                {
-                    name: "Contact",
-                    url: "/contact"
-                },
-            ]
-        }
-    ],
-    footerInfo: {
-        address: "685 Market Street, <br /> Las Vegas, LA 95820, <br /> United States.",
-        email: "example@domain.com",
-        phone: "(+01) 850-315-5862"
+          name: "Refund and Returns Policy",
+          url: "/cart",
+        },
+        {
+          name: "Shipping Policy",
+          url: "/wishlist",
+        },
+        {
+          name: "Terms & Conditions",
+          url: "/shop",
+        },
+      ],
     },
-    footerAppInfo: {
-        title: "Save $3 With App & New User only",
-        qrCode: "/images/others/qr.png",
-        appStoreLink:"https://apps.apple.com/",
-        appStoreLogo: "/images/others/app-store.png",
-        googlePlayLink:'https://play.google.com/',
-        googlePlayLogo: "/images/others/play-store.png",
-    }
-}
+    {
+      label: "Quick Link",
+      linkList: [
+        {
+          name: "About us",
+          url: "/about",
+        },
+        {
+          name: "Contact us",
+          url: "/about",
+        },
+        {
+          name: "Frequently Asked Questions",
+          url: "/privacy-policy",
+        },
+        {
+          name: "Custom Leather Jackets",
+          url: "/terms-of-use",
+        },
+        {
+          name: "Wholesale Leather Jackets",
+          url: "/contact",
+        },
+      ],
+    },
+    {
+      label: "Social links:",
+      linkList: [
+        {
+          name: "Facebook",
+          url: "/about",
+        },
+        {
+          name: "Youtube",
+          url: "/privacy-policy",
+        },
+        {
+          name: "Instagram",
+          url: "/terms-of-use",
+        },
+        {
+          name: "Tik Tok",
+          url: "/contact",
+        },
+        {
+          name: "Pinterest",
+          url: "/contact",
+        },
+      ],
+    },
+  ],
+  footerInfo: {
+    address:
+      "685 Market Street, <br /> Las Vegas, LA 95820, <br /> United States....",
+    email: "example@domain.com",
+    phone: "(+01) 850-315-5862",
+  },
+  footerAppInfo: {
+    title: "Save $3 With App & New User only",
+    qrCode: "/images/others/qr.png",
+    appStoreLink: "https://apps.apple.com/",
+    appStoreLogo: "/images/others/app-store.png",
+    googlePlayLink: "https://play.google.com/",
+    googlePlayLogo: "/images/others/play-store.png",
+  },
+};
 
-export {FooterData};
+export { FooterData };

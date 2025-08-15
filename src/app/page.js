@@ -137,7 +137,7 @@ const HomeNft = () => {
 					</div>
 				</Section> */}
       </main>
-      <FooterOne dark />
+      <FooterOne />
     </>
   );
 };

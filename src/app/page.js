@@ -1,8 +1,12 @@
-import CustomerSupportBar from "@/components/customer-support-bar";
-import CategoriesSection from "@/components/categories-section";
-import FreeDeliverySection from "@/components/free-delivery-section";
-import WelcomSection from "@/components/welcom-section";
-import BrandSlider from "@/components/brand-slider";
+import CustomerSupportBar from "@/components/home/customer-support-bar";
+import CategoriesSection from "@/components/home/categories-section";
+import FreeDeliverySection from "@/components/home/free-delivery-section";
+import WelcomSection from "@/components/home/welcom-section";
+import BrandSlider from "@/components/home/brand-slider";
+import Testimonial from "@/components/home/testimonial";
+import Gallery from "@/components/home/gallery";
+import FAQ from "@/components/home/faq";
+import Contact from "@/components/home/contact";
 
 import { getAllPosts } from "@/utils/api";
 import CategoryNft from "@/components/category/CategoryNft";
@@ -48,7 +52,11 @@ const HomeNft = () => {
         <CategoriesSection />
         <FreeDeliverySection />
         <WelcomSection />
+        <FAQ />
+        <Gallery />
         <BrandSlider />
+        <Testimonial />
+        <Contact />
         {/* <CategoryNft /> */}
         {/* <Section
 					pClass="axil-best-seller-product-area pb--0"

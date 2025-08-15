@@ -1,4 +1,3 @@
-// import Section from "@/components/elements/Section";
 import Image from "next/image";
 import { TestimonialData } from "@/data/Testimonial";
 import SlickSlider from "@/components/elements/SlickSlider";

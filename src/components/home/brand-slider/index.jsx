@@ -60,10 +60,7 @@ const BrandsSlider = () => {
   }, [brandSlides.length]);
 
   return (
-    <div
-      className="container-fluid py-5"
-      style={{ backgroundColor: "#f8f9fa" }}
-    >
+    <div className="container py-5" style={{ backgroundColor: "#f8f9fa" }}>
       {/* Top Border */}
       <div
         className="w-100 mb-4"

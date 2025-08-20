@@ -43,8 +43,8 @@ const AboutUs = () => {
                                     margin: '0'
                                 }}
                             >
-                                This website is operated by motocollection.us. "We," "us," and "our" refer to MotoCollection. By visiting or purchasing from our site you
-                                agree to these Terms of Service ("Terms"). Please read them carefully before using any part of the site. Continued use after changes
+                                This website is operated by motocollection.us. &quot;We,&quot; &quot;us,&quot; and &quot;our&quot; refer to MotoCollection. By visiting or purchasing from our site you
+                                agree to these Terms of Service (&quot;Terms&quot;). Please read them carefully before using any part of the site. Continued use after changes
                                 constitutes acceptance.
                             </p>
                         </div>

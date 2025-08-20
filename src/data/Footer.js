@@ -5,23 +5,23 @@ const FooterData = {
       linkList: [
         {
           name: "Privacy Policy",
-          url: "/dashboard",
+          url: "/privacy-policy",
         },
         {
           name: "Billing Terms & Conditions",
-          url: "/sign-in",
+          url: "/billing-terms-and-conditions",
         },
         {
           name: "Refund and Returns Policy",
-          url: "/cart",
+          url: "/refund-and-returns",
         },
         {
           name: "Shipping Policy",
-          url: "/wishlist",
+          url: "/shipping-policy",
         },
         {
           name: "Terms & Conditions",
-          url: "/shop",
+          url: "/terms-conditions",
         },
       ],
     },
@@ -34,19 +34,19 @@ const FooterData = {
         },
         {
           name: "Contact us",
-          url: "/about",
+          url: "/contant",
         },
         {
           name: "Frequently Asked Questions",
-          url: "/privacy-policy",
+          url: "/faq",
         },
         {
           name: "Custom Leather Jackets",
-          url: "/terms-of-use",
+          url: "/custom-leather-jackets",
         },
         {
           name: "Wholesale Leather Jackets",
-          url: "/contact",
+          url: "/wholesale-leather-jackets",
         },
       ],
     },
@@ -55,23 +55,23 @@ const FooterData = {
       linkList: [
         {
           name: "Facebook",
-          url: "/about",
+          url: "/#",
         },
         {
           name: "Youtube",
-          url: "/privacy-policy",
+          url: "/#",
         },
         {
           name: "Instagram",
-          url: "/terms-of-use",
+          url: "/#",
         },
         {
           name: "Tik Tok",
-          url: "/contact",
+          url: "/#",
         },
         {
           name: "Pinterest",
-          url: "/contact",
+          url: "/#",
         },
       ],
     },

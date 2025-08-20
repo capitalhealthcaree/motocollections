@@ -67,6 +67,22 @@ const ServicesSection = () => {
   return (
     <div className="container py-5">
       {/* Desktop Layout */}
+
+      <h2
+
+        style={{
+          fontSize: '3.2rem',
+          textAlign: "center",
+          fontWeight: '800',
+          color: '#2c3e50',
+          marginBottom: '50px',
+          fontFamily: 'Arial, sans-serif',
+          letterSpacing: '-1px',
+          lineHeight: '1.1'
+        }}
+      >
+        Welcome to Moto Collection
+      </h2>
       <div className="d-none d-lg-block">
         <div className="row">
           {services.map((service, index) => (

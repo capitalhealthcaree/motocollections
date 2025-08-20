@@ -61,7 +61,7 @@ const HeaderMenu = [
     },
     {
         name: "CONTACT US",
-        url: "/about",
+        url: "/contact",
         hasChildren: false,
     }
 ]

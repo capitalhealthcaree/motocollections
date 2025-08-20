@@ -76,7 +76,7 @@ const AboutUs = () => {
                             }}
                         >
                             Welcome to the Moto Collection FAQ page! We know that choosing the perfect leather gear can
-                            sometimes raise a few questions. Don't worry - we&apos;ve compiled answers to some of the most common
+                            sometimes raise a few questions. Don&apos;t worry - we&apos;ve compiled answers to some of the most common
                             inquiries. If you don&apos;t find what you&apos;re looking for, feel free to reach out to our team - we&apos;re here to help!
                         </p>
 

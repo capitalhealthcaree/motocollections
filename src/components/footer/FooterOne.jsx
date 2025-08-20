@@ -6,9 +6,8 @@ import { FooterData } from "@/data/Footer";
 const FooterOne = (props) => {
   return (
     <footer
-      className={`axil-footer-area footer-style-1 ${
-        props.dark ? "footer-dark" : "bg-color-white"
-      }`}
+      className={`axil-footer-area footer-style-1 ${props.dark ? "footer-dark" : "bg-color-white"
+        }`}
     >
       <div className="container">
         <div className="row">
@@ -18,9 +17,9 @@ const FooterOne = (props) => {
                 <Link href="/">
                   <Image
                     className="light-logo"
-                    src={props.dark ? Logo.light : Logo.dark}
-                    width={137}
-                    height={35}
+                    src="/images/logo.png"
+                    width={40}
+                    height={150}
                     alt="Logo"
                   />
                 </Link>

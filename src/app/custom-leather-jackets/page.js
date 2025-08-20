@@ -57,7 +57,7 @@ const AboutUs = () => {
                                 }}
                             >
                                 Welcome to our Custom Leather Jacket service, where you can bring your fashion vision to life. Whether
-                                you're dreaming of a vintage jacket that represents your team spirit, a rugged motorbike jacket that
+                                you&apos;re dreaming of a vintage jacket that represents your team spirit, a rugged motorbike jacket that
                                 matches your adventurous soul, or a fashion-forward jacket that expresses your unique style, we have you
                                 covered. With our expertise and craftsmanship, we offer you the opportunity to design and personalize
                                 your very own leather jacket. From classic styles to modern trends, from bold our skilled artisans will create a
@@ -100,7 +100,7 @@ const AboutUs = () => {
                                         margin: '0'
                                     }}
                                 >
-                                    Our leather is meticulously handpicked and we don't cut cost and we don't cut corners our superior quality
+                                    Our leather is meticulously handpicked and we don&apos;t cut cost and we don&apos;t cut corners our superior quality
                                     every step of the way.
                                 </p>
                             </div>
@@ -276,7 +276,7 @@ const AboutUs = () => {
                                         margin: '0'
                                     }}
                                 >
-                                    Receive expert measurement guidance—either in person or via measuring instructions—to ensure a flawless fit that's true to your body's unique silhouette.
+                                    Receive expert measurement guidance—either in person or via measuring instructions—to ensure a flawless fit that&apos;s true to your body&apos;s unique silhouette.
                                 </p>
                             </div>
 
@@ -377,7 +377,7 @@ const AboutUs = () => {
                                     margin: '0 auto 30px auto'
                                 }}
                             >
-                                It's as simple as our custom leather jacket! Let us meet our Team today to schedule a detailed consultation and kickstart the exciting journey of
+                                It&apos;s as simple as our custom leather jacket! Let us meet our Team today to schedule a detailed consultation and kickstart the exciting journey of
                                 your custom masterpiece. A detailed consultation will go far achieving your unique style.
                             </p>
 

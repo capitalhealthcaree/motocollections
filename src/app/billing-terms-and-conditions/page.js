@@ -45,8 +45,8 @@ const AboutUs = () => {
                                     margin: '0'
                                 }}
                             >
-                                When you click directly to complete your purchase, click the "Continue to checkout" button. If you currently
-                                have an account with us, the checkout flow is to include if you don't have to checkout, you will be prompted to
+                                When you click directly to complete your purchase, click the -Continue to checkout button-. If you currently
+                                have an account with us, the checkout flow is to include if you don&apos;t have to checkout, you will be prompted to
                                 create one—only your email and selected product will be in your cart to process an order.
                             </p>
                         </div>
@@ -201,7 +201,7 @@ const AboutUs = () => {
                                     marginBottom: '15px'
                                 }}
                             >
-                                We can't disclose the security of your transaction by looking for a security connection symbol to provide
+                                We can&apos;t disclose the security of your transaction by looking for a security connection symbol to provide
                                 a safe way is important for online security.
                             </p>
                             <p
@@ -243,7 +243,7 @@ const AboutUs = () => {
                                 Once you have placed your order, MotoCollection may independently order confirmation directly confirming
                                 payment via cart confirmation warning check on some large for check backing verification if you are order
                                 address payment. We take no responsibility for an offer your order does not reach the customer, for a
-                                combination on our end or a third party. This means we'd like to send the final order verification via email.
+                                combination on our end or a third party. This means we&apos;d like to send the final order verification via email.
                             </p>
                         </div>
 

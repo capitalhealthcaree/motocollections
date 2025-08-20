@@ -222,7 +222,7 @@ const AboutUs = () => {
                                     margin: '0'
                                 }}
                             >
-                                If your package arrives damaged, reject it at delivery if possible, then contact our customer service. If you weren't present, notify us
+                                If your package arrives damaged, reject it at delivery if possible, then contact our customer service. If you weren&apos;t present, notify us
                                 immediately to arrange next steps.
                             </p>
                         </div>

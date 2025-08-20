@@ -79,7 +79,7 @@ const PrivacyPolicy = async () => {
                                 }}
                             >
                                 When you visit the Site, we collect information about your device, interactions, and purchases. We may also collect additional details if you
-                                contact us for support. "Personal Information" means any data that can identify you.
+                                contact us for support. -Personal Information- means any data that can identify you.
                             </p>
 
                             <div style={{ marginBottom: '20px' }}>
@@ -301,7 +301,7 @@ const PrivacyPolicy = async () => {
                                 6. Lawful Basis (GDPR)
                             </h2>
                             <p style={{ fontSize: '0.95rem', color: '#555555', marginBottom: '10px' }}>
-                                If you're in the EEA, we rely on:
+                                If you&apos;re in the EEA, we rely on:
                             </p>
                             <ul style={{ paddingLeft: '20px', margin: '0' }}>
                                 <li style={{ fontSize: '0.95rem', color: '#555555', marginBottom: '5px' }}>Your consent</li>
@@ -336,7 +336,7 @@ const PrivacyPolicy = async () => {
                                     margin: '0'
                                 }}
                             >
-                                We keep your order-related data until you request erasure. See "Your Rights" below for more.
+                                We keep your order-related data until you request erasure. See -Your Rights- below for more.
                             </p>
                         </div>
 
@@ -386,7 +386,7 @@ const PrivacyPolicy = async () => {
                                 <strong>EEA Residents:</strong> Access, port, correct, update, or erase your data. Contact us to exercise these rights.
                             </p>
                             <p style={{ fontSize: '0.95rem', color: '#555555', margin: '0' }}>
-                                <strong>California Residents:</strong> "Right to Know," port, correct, or erase your data. You may also designate an agent to submit requests.
+                                <strong>California Residents:</strong> -Right to Know-, port, correct, or erase your data. You may also designate an agent to submit requests.
                             </p>
                         </div>
 
@@ -517,7 +517,7 @@ const PrivacyPolicy = async () => {
                                     margin: '0'
                                 }}
                             >
-                                We do not change our practices in response to "Do Not Track" signals, as the industry has no standard response.
+                                We do not change our practices in response to -Do Not Track- signals, as the industry has no standard response.
                             </p>
                         </div>
 
@@ -571,7 +571,7 @@ const PrivacyPolicy = async () => {
                                     margin: '0'
                                 }}
                             >
-                                If you're dissatisfied with our response to your privacy concern, you may lodge a complaint with your local data protection authority.
+                                If you&apos;re dissatisfied with our response to your privacy concern, you may lodge a complaint with your local data protection authority.
                             </p>
                         </div>
 

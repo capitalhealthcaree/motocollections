@@ -50,7 +50,7 @@ const AboutUs = () => {
                                 >
                                     Founded in 2012, Moto Collection has been dedicated to providing top-notch leather products for over a decade.
                                     What started as a passion for creating high-quality leather gear has grown into a leading name in the industry.
-                                    Whether you're an adventurous motorbike rider, a cosplay enthusiast, or someone who simply appreciates fine
+                                    Whether you&apos;re an adventurous motorbike rider, a cosplay enthusiast, or someone who simply appreciates fine
                                     craftsmanship, we have something special just for you.
                                 </p>
 
@@ -175,7 +175,7 @@ const AboutUs = () => {
                                             textAlign: 'justify'
                                         }}
                                     >
-                                        Whether you're looking for something practical or trendy, we have the perfect piece for you.
+                                        Whether you&apos;re looking for something practical or trendy, we have the perfect piece for you.
                                     </p>
 
                                     <p
@@ -233,7 +233,7 @@ const AboutUs = () => {
                                     >
                                         With over 13 years of experience in the leather industry, we understand the value of high-quality craftsmanship. We
                                         use advanced techniques and pay attention to every stitch to ensure that each product delivers not only on style but
-                                        also on durability. Whether you're hitting the road, attending a special event, or looking for everyday wear, our leather
+                                        also on durability. Whether you&apos;re hitting the road, attending a special event, or looking for everyday wear, our leather
                                         products are designed to stand out and last.
                                     </p>
                                 </div>
@@ -277,7 +277,7 @@ const AboutUs = () => {
                                         }}
                                     >
                                         Moto Collection is proud to offer both wholesale and retail options to serve individuals and businesses alike. Whether
-                                        you're looking to purchase a single item or place a bulk order, we're here to meet your needs.
+                                        you&apos;re looking to purchase a single item or place a bulk order, we&apos;re here to meet your needs.
                                     </p>
                                 </div>
                             </div>

@@ -314,7 +314,7 @@ const AboutUs = () => {
                                     margin: '0'
                                 }}
                             >
-                                We may offer third party tools "as is" without endorsement or liability. Your use of such tools is at your own risk and subject to their terms.
+                                We may offer third party tools as is without endorsement or liability. Your use of such tools is at your own risk and subject to their terms.
                             </p>
                         </div>
 
@@ -524,7 +524,7 @@ const AboutUs = () => {
                                     margin: '0'
                                 }}
                             >
-                                The Service is provided "as is" and "as available." We make no warranties and are not liable for damages arising from your use of the site,
+                                The Service is provided as is and as available. We make no warranties and are not liable for damages arising from your use of the site,
                                 to the fullest extent permitted by law.
                             </p>
                         </div>

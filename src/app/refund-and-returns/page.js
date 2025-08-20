@@ -91,7 +91,7 @@ const AboutUs = () => {
                                         marginBottom: '8px'
                                     }}
                                 >
-                                    You'll need your receipt or proof of purchase.
+                                    You&apos;ll need your receipt or proof of purchase.
                                 </li>
                             </ul>
                         </div>
@@ -172,7 +172,7 @@ const AboutUs = () => {
                                     margin: '0'
                                 }}
                             >
-                                Inspect your order upon arrival. If your item is defective, damaged, or you've received the wrong product, contact us immediately so we can
+                                Inspect your order upon arrival. If your item is defective, damaged, or you&apos;ve received the wrong product, contact us immediately so we can
                                 make it right.
                             </p>
                         </div>
@@ -228,7 +228,7 @@ const AboutUs = () => {
                                 }}
                             >
                                 If your order ships to the European Union, you have the right to cancel or return within 14 days, for any reason, without justification. Your
-                                item must meet the same eligibility criteria listed above, and you'll need your proof of purchase.
+                                item must meet the same eligibility criteria listed above, and you&apos;ll need your proof of purchase.
                             </p>
                         </div>
 
@@ -255,7 +255,7 @@ const AboutUs = () => {
                                     marginBottom: '15px'
                                 }}
                             >
-                                Once we receive and inspect your return, we'll notify you of approval. Approved refunds will be processed back to your original payment
+                                Once we receive and inspect your return, we&apos;ll notify you of approval. Approved refunds will be processed back to your original payment
                                 method within 10 business days. Banks may take additional time to post the funds to your account.
                             </p>
                             <p
@@ -293,7 +293,7 @@ const AboutUs = () => {
                                     margin: '0'
                                 }}
                             >
-                                For any return-related questions, email us at support@motocollection.us. We're here to help!
+                                For any return-related questions, email us at support@motocollection.us. We&apos;re here to help!
                             </p>
                         </div>
                     </div>

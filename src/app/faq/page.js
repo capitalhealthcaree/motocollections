@@ -76,8 +76,8 @@ const AboutUs = () => {
                             }}
                         >
                             Welcome to the Moto Collection FAQ page! We know that choosing the perfect leather gear can
-                            sometimes raise a few questions. Don't worry - we've compiled answers to some of the most common
-                            inquiries. If you don't find what you're looking for, feel free to reach out to our team - we're here to help!
+                            sometimes raise a few questions. Don't worry - we&apos;ve compiled answers to some of the most common
+                            inquiries. If you don&apos;t find what you&apos;re looking for, feel free to reach out to our team - we&apos;re here to help!
                         </p>
 
                         {/* FAQ Items */}
@@ -165,8 +165,8 @@ const AboutUs = () => {
                                     margin: '0 auto 25px auto'
                                 }}
                             >
-                                If you couldn't find an answer to your question above, don't hesitate to get in touch. Our team at Moto
-                                Collection is always happy to assist you with whatever you need. Reach out today, and we'll be happy to
+                                If you couldn&apos;t find an answer to your question above, don&apos;t hesitate to get in touch. Our team at Moto
+                                Collection is always happy to assist you with whatever you need. Reach out today, and we&apos;ll be happy to
                                 help!
                             </p>
 
@@ -177,7 +177,7 @@ const AboutUs = () => {
                                     marginBottom: '20px'
                                 }}
                             >
-                                We're here to help 24/7! You can reach us in the following ways:
+                                We&apos;re here to help 24/7! You can reach us in the following ways:
                             </p>
 
                             {/* Contact Information */}

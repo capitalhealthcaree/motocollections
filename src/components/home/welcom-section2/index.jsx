@@ -28,7 +28,7 @@ const CustomGearSection = () => {
               fontFamily: 'Arial, sans-serif'
             }}
           >
-            Create a unique, personalized leather product with Moto Collection. Whether it's a custom jacket, cosplay outfit, or motorbike gear, we craft each piece to your exact specifications. Contact us to bring your design to life!
+            Create a unique, personalized leather product with Moto Collection. Whether it&apos;s a custom jacket, cosplay outfit, or motorbike gear, we craft each piece to your exact specifications. Contact us to bring your design to life!
           </p>
 
           <button

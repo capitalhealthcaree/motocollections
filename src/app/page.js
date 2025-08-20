@@ -7,6 +7,8 @@ import Testimonial from "@/components/home/testimonial";
 import Gallery from "@/components/home/gallery";
 import FAQ from "@/components/home/faq";
 import Contact from "@/components/home/contact";
+import WelcomSection2 from "@/components/home/welcom-section2";
+
 
 import { getAllPosts } from "@/utils/api";
 import CategoryNft from "@/components/category/CategoryNft";
@@ -26,39 +28,41 @@ import ProductListTwo from "@/components/product/ProductListTwo";
 // import ProductIsotop from './ProductIsotop';
 
 const HomeNft = () => {
-  const pageCategory = "nft";
-  const nftProduct = ProductsData.filter(
-    (data) => slugify(data.pCate) === pageCategory
-  );
-  const allPost = getAllPosts([
-    "id",
-    "slug",
-    "postFormat",
-    "videoUrl",
-    "title",
-    "pCate",
-    "cate",
-    "featureImg",
-  ]);
-  const nftPost = allPost.filter(
-    (data) => slugify(data.pCate) === pageCategory
-  );
-  return (
-    <>
-      <HeaderFive />
-      <main className="main-wrapper">
-        <BannerTwo />
-        <CustomerSupportBar />
-        <CategoriesSection />
-        <FreeDeliverySection />
-        <WelcomSection />
-        <FAQ />
-        <Gallery />
-        <BrandSlider />
-        <Testimonial />
-        <Contact />
-        {/* <CategoryNft /> */}
-        {/* <Section
+	const pageCategory = "nft";
+	const nftProduct = ProductsData.filter(
+		(data) => slugify(data.pCate) === pageCategory
+	);
+	const allPost = getAllPosts([
+		"id",
+		"slug",
+		"postFormat",
+		"videoUrl",
+		"title",
+		"pCate",
+		"cate",
+		"featureImg",
+	]);
+	const nftPost = allPost.filter(
+		(data) => slugify(data.pCate) === pageCategory
+	);
+	return (
+		<>
+			<HeaderFive />
+			<main className="main-wrapper">
+				<BannerTwo />
+				<CustomerSupportBar />
+				<CategoriesSection />
+				<FreeDeliverySection />
+				<WelcomSection />
+				<FAQ />
+				<Gallery />
+				<BrandSlider />
+				<Testimonial />
+				<WelcomSection2 />
+				<Contact />
+
+				{/* <CategoryNft /> */}
+				{/* <Section
 					pClass="axil-best-seller-product-area pb--0"
 					borderBottom="pb--50"
 				>
@@ -101,8 +105,8 @@ const HomeNft = () => {
 						))}
 					</SlickSlider>
 				</Section> */}
-        {/* <ProductIsotop /> */}
-        {/* <Section pClass="axil-most-sold-product pb--0" borderBottom="pb--50">
+				{/* <ProductIsotop /> */}
+				{/* <Section pClass="axil-most-sold-product pb--0" borderBottom="pb--50">
 					<SectionTitle
 						title="Most Sold Last 7 Days"
 						subtitle="Most Sold"
@@ -118,7 +122,7 @@ const HomeNft = () => {
 						))}
 					</div>
 				</Section> */}
-        {/* <ServiceThree />
+				{/* <ServiceThree />
 				<VideoBanner />
 				<Section>
 					<SectionTitle
@@ -136,10 +140,10 @@ const HomeNft = () => {
 						))}
 					</div>
 				</Section> */}
-      </main>
-      <FooterOne />
-    </>
-  );
+			</main>
+			<FooterOne />
+		</>
+	);
 };
 
 export default HomeNft;

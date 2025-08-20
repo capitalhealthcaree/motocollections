@@ -184,6 +184,14 @@ const CTASection = () => {
           </div>
         </div>
       </div>
+      <div
+        className="w-100 mt-4"
+        style={{
+          height: '3px',
+          backgroundColor: '#000',
+          margin: '0 auto'
+        }}
+      />
     </div>
   );
 };

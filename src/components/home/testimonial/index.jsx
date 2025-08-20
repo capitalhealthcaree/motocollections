@@ -4,7 +4,7 @@ import SlickSlider from "@/components/elements/SlickSlider";
 
 const TestimonialOne = () => {
   return (
-    <div className="container py-5 my-5" style={{ backgroundColor: "#f8f8f8" }}>
+    <div className="container py-5 my-5">
       <h2 className="text-center text-dark">Customer Reviews</h2>
       <SlickSlider
         class="testimonial-style-one-wrapper slick-layout-wrapper--20 axil-slick-arrow arrow-top-slide"

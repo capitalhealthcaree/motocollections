@@ -1,9 +1,10 @@
 'use client';
-import Image from "next/image";
 import Link from "next/link";
 import FooterOne from "@/components/footer/FooterOne";
 import HeaderFive from "@/components/header/HeaderFive";
-import ServiceTwo from "@/components/services/ServiceTwo";
+import Contact from "@/components/home/contact";
+import WelcomSection2 from "@/components/home/welcom-section2";
+import FreeDeliverySection from "@/components/home/free-delivery-section";
 
 const NotFound = () => {
     return (
@@ -12,8 +13,8 @@ const NotFound = () => {
             <main className="main-wrapper">
                 <section className="error-page onepage-screen-area">
                     <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-6">
+                        <div className="row">
+                            <div className="col-lg-12">
                                 <div className="content">
                                     <span className="title-highlighter highlighter-secondary"> <i className="fal fa-exclamation-circle" /> Oops! Somthings missing.</span>
                                     <h1 className="title">Page not found</h1>
@@ -26,6 +27,9 @@ const NotFound = () => {
                         </div>
                     </div>
                 </section>
+                <FreeDeliverySection />
+                <WelcomSection2 />
+                <Contact />
             </main>
             <FooterOne />
         </>

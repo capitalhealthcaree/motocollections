@@ -1,10 +1,10 @@
 'use client';
 import Breadcrumb from "@/components/breadcrumb/CustomBreadcrumb";
-import FreeDeliverySection from "@/components/home/free-delivery-section";
 import FooterOne from "@/components/footer/FooterOne";
 import HeaderFive from "@/components/header/HeaderFive";
 import Contact from "@/components/home/contact";
 import WelcomSection2 from "@/components/home/welcom-section2";
+import FreeDeliverySection from "@/components/home/free-delivery-section";
 
 const AboutUs = () => {
     return (

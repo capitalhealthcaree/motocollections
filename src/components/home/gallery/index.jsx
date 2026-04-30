@@ -6,20 +6,24 @@ const GallerySection = () => {
 
   const galleryImages = [
     {
-      src: "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600&h=400&fit=crop&crop=center",
-      alt: "Leather Jacket Style 1",
+      id: 1,
+      src: "https://res.cloudinary.com/dngmflrpx/image/upload/v1777586437/motoCollecton/photo-1551028719-00167b16eac5_lnbtvy.jpg",
+      alt: "Leather Jackets For Men",
     },
     {
-      src: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=600&h=400&fit=crop&crop=center",
-      alt: "Leather Jacket Style 2",
+      id: 2,
+      src: "https://res.cloudinary.com/dngmflrpx/image/upload/v1777586658/motoCollecton/photo-1594633312681-425c7b97ccd1_egbzbt.jpg",
+      alt: "Leather Jackets For Women",
     },
     {
-      src: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop&crop=center",
-      alt: "Leather Jacket Style 3",
+      id: 3,
+      src: "https://res.cloudinary.com/dngmflrpx/image/upload/v1777586716/motoCollecton/photo-1507003211169-0a1dd7228f2d_dbwrhg.jpg",
+      alt: "Leather Suits",
     },
     {
-      src: "https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?w=600&h=400&fit=crop&crop=center",
-      alt: "Leather Jacket Style 4",
+      id: 4,
+      src: "https://res.cloudinary.com/dngmflrpx/image/upload/v1777586799/motoCollecton/photo-1542909168-82c3e7fdca5c_xkt4vs.jpg",
+      alt: "Leather Vest",
     },
   ];
 
@@ -29,7 +33,7 @@ const GallerySection = () => {
 
   const prevImage = () => {
     setCurrentImage(
-      (prev) => (prev - 1 + galleryImages.length) % galleryImages.length
+      (prev) => (prev - 1 + galleryImages.length) % galleryImages.length,
     );
   };
 

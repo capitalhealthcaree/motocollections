@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const MotoCollectionSection = () => {
   return (
@@ -7,9 +7,9 @@ const MotoCollectionSection = () => {
       <div
         className="w-100 mb-4"
         style={{
-          height: '3px',
-          backgroundColor: '#000',
-          margin: '0 auto'
+          height: "3px",
+          backgroundColor: "#000",
+          margin: "0 auto",
         }}
       />
 
@@ -22,11 +22,11 @@ const MotoCollectionSection = () => {
               <h1
                 className="mb-0 me-3"
                 style={{
-                  fontSize: 'clamp(2rem, 4vw, 3rem)',
-                  fontWeight: '700',
-                  color: '#000',
-                  textTransform: 'uppercase',
-                  letterSpacing: '1px'
+                  fontSize: "clamp(2rem, 4vw, 3rem)",
+                  fontWeight: "700",
+                  color: "#000",
+                  textTransform: "uppercase",
+                  letterSpacing: "1px",
                 }}
               >
                 MOTO COLLECTION
@@ -74,31 +74,33 @@ const MotoCollectionSection = () => {
               <p
                 className="mb-3"
                 style={{
-                  fontSize: 'clamp(0.95rem, 2.5vw, 1.1rem)',
-                  color: '#555',
-                  lineHeight: '1.6',
-                  fontWeight: '400'
+                  fontSize: "clamp(0.95rem, 2.5vw, 1.1rem)",
+                  color: "#555",
+                  lineHeight: "1.6",
+                  fontWeight: "400",
                 }}
               >
                 Welcome to Moto Collection, your destination for premium leather
-                gear since 2012. We offer a wide range of motorbike suits, gloves,
-                shoes, leather jackets, celebrity jackets, movie jackets, and
-                customized options. Whether you&apos;re a rider, cosplay fan, or need
-                stylish work aprons, we have something for every style and occasion.
+                gear since 2012. We offer a wide range of motorbike suits,
+                gloves, shoes, leather jackets, celebrity jackets, movie
+                jackets, and customized options. Whether you&apos;re a rider,
+                cosplay fan, or need stylish work aprons, we have something for
+                every style and occasion.
               </p>
 
               <p
                 className="mb-0"
                 style={{
-                  fontSize: 'clamp(0.95rem, 2.5vw, 1.1rem)',
-                  color: '#555',
-                  lineHeight: '1.6',
-                  fontWeight: '400'
+                  fontSize: "clamp(0.95rem, 2.5vw, 1.1rem)",
+                  color: "#555",
+                  lineHeight: "1.6",
+                  fontWeight: "400",
                 }}
               >
                 With over a decade of experience, we provide both wholesale and
                 retail options, ensuring top-quality, durable gear. Explore our
-                collection today and find the perfect fit for any event or adventure.
+                collection today and find the perfect fit for any event or
+                adventure.
               </p>
             </div>
           </div>
@@ -107,14 +109,14 @@ const MotoCollectionSection = () => {
           <div className="col-12 col-lg-5">
             <div className="text-center">
               <img
-                src="images/welcome.jpg"
+                src="https://res.cloudinary.com/dngmflrpx/image/upload/v1777587034/motoCollecton/welcome_xgc2fj.jpg"
                 alt="Moto Collection - Premium Leather Gear"
                 className="img-fluid"
                 style={{
-                  maxWidth: '100%',
-                  height: 'auto',
-                  borderRadius: '8px',
-                  boxShadow: '0 4px 20px rgba(0,0,0,0.1)'
+                  maxWidth: "100%",
+                  height: "auto",
+                  borderRadius: "8px",
+                  boxShadow: "0 4px 20px rgba(0,0,0,0.1)",
                 }}
               />
             </div>
@@ -126,9 +128,9 @@ const MotoCollectionSection = () => {
       <div
         className="w-100 mt-4"
         style={{
-          height: '3px',
-          backgroundColor: '#000',
-          margin: '0 auto'
+          height: "3px",
+          backgroundColor: "#000",
+          margin: "0 auto",
         }}
       />
     </div>

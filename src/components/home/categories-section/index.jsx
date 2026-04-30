@@ -1,48 +1,55 @@
 "use client";
-import React from 'react';
+import React from "react";
 
 const CategoriesSection = () => {
   const categories = [
     {
       id: 1,
       title: "Leather Jackets For Men",
-      image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=300&fit=crop&crop=center"
+      image:
+        "https://res.cloudinary.com/dngmflrpx/image/upload/v1777586437/motoCollecton/photo-1551028719-00167b16eac5_lnbtvy.jpg",
     },
     {
       id: 2,
       title: "Leather Jackets For Women",
-      image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=300&fit=crop&crop=center"
+      image:
+        "https://res.cloudinary.com/dngmflrpx/image/upload/v1777586658/motoCollecton/photo-1594633312681-425c7b97ccd1_egbzbt.jpg",
     },
     {
       id: 3,
       title: "Leather Suits",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop&crop=center"
+      image:
+        "https://res.cloudinary.com/dngmflrpx/image/upload/v1777586716/motoCollecton/photo-1507003211169-0a1dd7228f2d_dbwrhg.jpg",
     },
     {
       id: 4,
       title: "Leather Vest",
-      image: "https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?w=400&h=300&fit=crop&crop=center"
+      image:
+        "https://res.cloudinary.com/dngmflrpx/image/upload/v1777586799/motoCollecton/photo-1542909168-82c3e7fdca5c_xkt4vs.jpg",
     },
     {
       id: 5,
       title: "MotoGP Leather Suit",
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop&crop=center"
+      image:
+        "https://res.cloudinary.com/dngmflrpx/image/upload/v1777586855/motoCollecton/photo-1558618666-fcd25c85cd64_za7zyu.jpg",
     },
     {
       id: 6,
       title: "Motorbike Gloves",
-      image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop&crop=center"
+      image: "",
     },
     {
       id: 7,
       title: "Motorbike Shoes",
-      image: "https://images.unsplash.com/photo-1542280756-74b2f55e73ab?w=400&h=300&fit=crop&crop=center"
+      image:
+        "https://res.cloudinary.com/dngmflrpx/image/upload/v1777586925/motoCollecton/photo-1542280756-74b2f55e73ab_il4yeq.jpg",
     },
     {
       id: 8,
       title: "Women Coat",
-      image: "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?w=400&h=300&fit=crop&crop=center"
-    }
+      image:
+        "https://res.cloudinary.com/dngmflrpx/image/upload/v1777586972/motoCollecton/photo-1539008835657-9e8e9680c956_v8ex0d.jpg",
+    },
   ];
 
   return (
@@ -53,10 +60,10 @@ const CategoriesSection = () => {
           <h2
             className="mb-0"
             style={{
-              fontSize: '2.5rem',
-              fontWeight: '400',
-              color: '#333',
-              letterSpacing: '0.5px'
+              fontSize: "2.5rem",
+              fontWeight: "400",
+              color: "#333",
+              letterSpacing: "0.5px",
             }}
           >
             Our Categories
@@ -67,23 +74,20 @@ const CategoriesSection = () => {
       {/* Categories Grid */}
       <div className="row g-4">
         {categories.map((category) => (
-          <div
-            key={category.id}
-            className="col-6 col-lg-3"
-          >
+          <div key={category.id} className="col-6 col-lg-3">
             <div
               className="position-relative overflow-hidden"
               style={{
-                borderRadius: '15px',
-                aspectRatio: '1',
-                cursor: 'pointer',
-                transition: 'transform 0.3s ease'
+                borderRadius: "15px",
+                aspectRatio: "1",
+                cursor: "pointer",
+                transition: "transform 0.3s ease",
               }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.transform = 'scale(1.05)';
+                e.currentTarget.style.transform = "scale(1.05)";
               }}
               onMouseLeave={(e) => {
-                e.currentTarget.style.transform = 'scale(1)';
+                e.currentTarget.style.transform = "scale(1)";
               }}
             >
               {/* Background Image */}
@@ -91,9 +95,9 @@ const CategoriesSection = () => {
                 className="position-absolute w-100 h-100"
                 style={{
                   backgroundImage: `url(${category.image})`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                  backgroundRepeat: 'no-repeat'
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
                 }}
               />
 
@@ -101,7 +105,8 @@ const CategoriesSection = () => {
               <div
                 className="position-absolute w-100 h-100"
                 style={{
-                  background: 'linear-gradient(135deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.6) 100%)'
+                  background:
+                    "linear-gradient(135deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.6) 100%)",
                 }}
               />
 
@@ -110,9 +115,9 @@ const CategoriesSection = () => {
                 <h3
                   className="text-white text-center px-3 mb-0"
                   style={{
-                    fontSize: 'clamp(3rem, 2.5vw, 1.25rem)',
-                    lineHeight: '1.2',
-                    textShadow: '2px 2px 4px rgba(0,0,0,0.7)'
+                    fontSize: "clamp(3rem, 2.5vw, 1.25rem)",
+                    lineHeight: "1.2",
+                    textShadow: "2px 2px 4px rgba(0,0,0,0.7)",
                   }}
                 >
                   {category.title}

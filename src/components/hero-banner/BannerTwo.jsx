@@ -6,19 +6,19 @@ const HeroBanner = () => {
 
   const images = [
     {
-      url: 'images/banner.jpg',
+      url: 'https://res.cloudinary.com/dngmflrpx/image/upload/v1777587465/motoCollecton/banner_t6olmt.jpg',
       leftText: ['RIDE WITH', 'POWER'],
       rightText: ['OWN THE', 'TRACK'],
       mobileText: ['RIDE WITH POWER', 'OWN THE TRACK']
     },
     {
-      url: 'images/banner.jpg',
+      url: 'https://res.cloudinary.com/dngmflrpx/image/upload/v1777587465/motoCollecton/banner_t6olmt.jpg',
       leftText: ['SPEED', 'DEMON'],
       rightText: ['LIVE THE', 'THRILL'],
       mobileText: ['SPEED DEMON', 'LIVE THE THRILL']
     },
     {
-      url: 'images/banner.jpg',
+      url: 'https://res.cloudinary.com/dngmflrpx/image/upload/v1777587465/motoCollecton/banner_t6olmt.jpg',
       leftText: ['BORN TO', 'RACE'],
       rightText: ['FEEL THE', 'RUSH'],
       mobileText: ['BORN TO RACE', 'FEEL THE RUSH']
